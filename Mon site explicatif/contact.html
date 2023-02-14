@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="mise_en_forme_du_site.css" />
+        <title>Mon site sur le développement Web</title>
+    </head>
+
+    <body>
+		<form method="post" action="contact_moi.php">
+		<fieldset>
+		<legend><span class="mise_en_valeur1">Coordonnées</span></legend>
+		<p>
+			<label for="nom">Comment t'appelles-tu ?</label> <input type="text" name="nom" id="nom" placeholder="Exemple : Lutine72" size="30" maxlenght="30" required />
+		</p>
+		<p>
+			<label for="email">À quelle adresse mail puis-je te répondre ?</label> <input type="mail" name="mail" id="mail" />
+		</p>
+		<p>
+			<label for="couleur">Quelle est ta couleur préférée ?</label> <input type="color" name="couleur" id="couleur" />
+		</p>
+			<label for="anniv">Quelle est ta date d'anniversaire ?</label> <input type="date" name="anniv" id="anniv" />
+		</p>
+		<p>
+			<label for="numero">Quel est ton numéro de téléphone ?</label> <input type="tel" name="numero" id="numero" />
+		</p>
+		<p>
+			<label for="site">Si tu as un site internet, merci de noter l'adresse :</label> <input type="url" name="site" id="site" size="30" maxlenght="80" />
+		</p>
+		</fieldset>
+		<fieldset>
+		<legend><span class="mise_en_valeur1">Zone d'expression</span></legend>
+		<p>
+			<label for="message">Exprime toi :) :</label><br />
+			<textarea name="message" id="message" rows="10" cols="50">Laisse ton message ici !</textarea>
+			<br /><br />
+			Est-ce que tu m'autorises à afficher ton message dans mon livre d'or ?<br/>
+			<input type="radio" name="autorisation_message" value="autorisation_message_oui" id="autorisation_message_oui" checked/> <label for="autorisation_message_oui">Oui</label>
+			<input type="radio" name="autorisation_message" value="autorisation_message_non" id="autorisation_message_non" /> <label for="autorisation_message_non">Non</label>
+		</p>
+		<p>
+			<label for="note">Une dernière petite question, quelle note mettrais-tu à ce site sur une échelle de 1 à 10 ?</label> <br /> <input type="range" name="note" id="note" max="10" />
+		</p>
+		</fieldset>
+			<input type="submit" value="Envoyer" />
+		</form>
+    </body>
+
+</html>

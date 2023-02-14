@@ -1,0 +1,143 @@
+						/* Déclaration de la police */
+@font-face
+{
+	font-family: 'ma_police_perso';
+	src: url('font_perso/Quicksand-Regular.otf');
+	font-family: 'ma_police_perso_en_gras';
+	src: url('font_perso/Quicksand-Bold.otf');
+}
+			
+
+						/* Mise en forme du texte */
+h1
+{
+	font-family: 'ma_police_perso', Arial, serif;
+	font-size: 1.5em;
+}
+
+h2
+{
+	color: forestgreen;
+	text-align: center;
+	font-family: 'ma_police_perso', Arial, serif;
+	border: 3px lightgoldenrodyellow outset;
+    border-radius: 14px / 28px;
+    box-shadow: 2px 2px 20px lightblue;
+}
+
+h3
+{
+	color: brown;	
+}
+
+strong
+{
+	font-weight: normal;
+	font-family: 'ma_police_perso_en_gras', Arial, serif;
+}
+						
+						/* Mise générale - body et bloc */
+
+body
+{
+	background-image: url(images/fond.png);
+	display: flex;
+	flex-direction: row;
+}
+
+#bandeau
+{
+	width: 10%;
+	border: 5px lightgreen double;
+	border-radius: 20px 20px 20px 20px;
+	border: 5px lightgreen groove;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 1.3em;
+
+}
+
+#conteneur_1
+{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	justify-content: space-around;
+	margin-left: 30px;
+	border-radius: 20px 20px 20px 20px;
+    box-shadow: -12px 0px 30px coral;
+
+}
+
+#conteneur_2
+{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	justify-content: space-around;
+	border-radius: 20px 20px 20px 20px;
+    box-shadow: -12px 0px 30px seagreen;
+}
+
+#conteneur_3
+{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	justify-content: space-around;
+	border-radius: 20px 20px 20px 20px;
+    box-shadow: -12px 0px 30px blueviolet;
+}
+
+section
+{
+	border-radius: 10px 10px 10px 10px;
+	border: 5px lightblue outset;
+	width: 80%;
+	margin: auto;
+}
+
+#conteneur_3 section
+{
+	width: 80%;
+	margin: auto;
+}
+
+#conteneur_2 section
+{
+	width: 80%;
+	margin: auto;
+
+}
+
+
+#conteneur_1 section
+{
+	width: 80%;
+	margin: auto;
+}
+#conteneur_1 section:hover
+{
+	border-radius: 10px 10px 10px 10px;
+	border: 5px greenyellow inset;
+	background-color: lightyellow;
+    box-shadow: 12px 12px 30px darkorange;
+}
+
+#conteneur_2 section:hover
+{
+	border-radius: 10px 10px 10px 10px;
+	border: 5px greenyellow inset;
+	background-color: lightyellow;
+    box-shadow: 12px 12px 30px seagreen;
+}
+
+#conteneur_3 section:hover
+{
+	border-radius: 10px 10px 10px 10px;
+	border: 5px greenyellow inset;
+	background-color: lightyellow;
+    box-shadow: 12px 12px 30px blueviolet;
+}
