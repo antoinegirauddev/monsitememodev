@@ -1,0 +1,21 @@
+.rappelInfo {
+	background-color: blueviolet;
+	color: white;
+	width: 250px;
+	margin: 50px 0px;
+	padding: 10px 50px;
+
+}
+
+.infoServeur p {
+	border: 0.3em solid skyblue;
+	padding: 10px 50px;
+	text-align: center;
+}
+
+.infoServeur {
+  margin-left: 50px;
+  width: 1000px;
+  height: 500px;
+  overflow: scroll;
+}
